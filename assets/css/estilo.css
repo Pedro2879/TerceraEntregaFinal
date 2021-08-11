@@ -1,0 +1,137 @@
+
+.fondo{
+	background-color: rgb(240, 240, 240);
+}
+
+.frase1{
+	color: peru;
+	font-size: 70px;
+	margin-top: 40px;
+}
+.frase2{
+	margin-top: 0px;
+	font-size: 30px;
+	text-align: center;
+}
+.navegador{
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	padding: 20px;
+	font-size: 20px;
+	background-color: rgb(248, 248, 167);
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+.centrado{
+	display: flex;
+	justify-content: space-around;}
+.centradoNos{
+	display: flex;
+	justify-content:center;
+}
+
+.paddingBT{padding-top: 30px; padding-bottom: 20px;}
+
+.texto h3{
+	text-align: rigth;
+	margin-top: 170px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;}
+.texto h2{text-align: center;
+	margin-top: 20px;
+	margin-bottom:20px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;}
+
+.textoInvertido h3{					/*APLICANDO PROPIEDADES TRANSFORM*/
+	transform: rotateZ(-45deg);
+	color: red;
+}
+.transform {
+	transition: all 1s;
+}
+.transform:hover{
+	transform: translateY(-20px);
+	cursor: pointer;
+}
+
+}
+
+
+footer{
+	
+	background-color:rgb(248, 248, 167) ;
+	
+}
+footer h5{
+	text-align: center;
+	margin-top: 70px;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+/*MOBILE*/
+@media only screen and (min-width:0px) and (max-width:767px) {
+	.navegador{
+		font-size:12px;
+	}
+
+.frase1{
+	color: peru;
+	font-size: 35px;
+	margin-top: 0px;
+	text-align: center;
+	
+	}
+.frase2{
+	font-size:15px;
+	text-align: center;
+
+}
+.tamanio{
+	width: 80px; height:80px;
+	justify-content:space-evenly;
+
+}
+.texto h3{
+	
+	font-size:20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.queries{
+	margin: 10px;
+	padding: 10px;
+	display: flex;	
+	flex-wrap: wrap;
+}
+
+
+footer h5{
+	text-align: center;
+	margin-top:10px;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.footerimg{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/*DESCKTOP*/
+
+@media only screen and (mind-width: 0px) and (max-width: 767px)
+ {
+	
+}
